@@ -1,4 +1,4 @@
-renda = float(input("Digite sua renda:\n"))
+renda = float(input("Digite sua renda:\nNao use virgulas apenas numeros:\n"))
 if renda < 2000:
     print("Seu limite eh de R$1.000 reais.")
 elif renda > 2000 and renda < 4000:
